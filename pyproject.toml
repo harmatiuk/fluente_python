@@ -1,0 +1,18 @@
+[project]
+name = "fluente-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Lucas Harmatiuk", email = "lucasjharmatiuk@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
